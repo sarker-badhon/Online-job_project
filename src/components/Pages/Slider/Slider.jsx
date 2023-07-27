@@ -3,7 +3,7 @@ import introVideo from "../../../assets/intro.mp4";
 
 const Slider = () => {
   return (
-    <div className="hero h-[560px] ">
+    <div className="hero h-[560px] mb-64">
       <video className="hero-video w-full" autoPlay loop muted>
         <source src={introVideo} type="video/mp4" />
       </video>
